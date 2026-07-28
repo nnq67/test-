@@ -26,4 +26,4 @@ jobs:
     - name: 🔔 Gửi thông báo đến kênh Slack/Discord của Team
       if: success()
       run: |
-        echo "Gửi Webhook: PR mới đã vượt qua vòng kiểm tra tự động. Đội ngũ Reviewer có thể tiến hành kiểm tra logic."
+        echo"Gửi Webhook: PR mới đã vượt qua vòng kiểm tra tự động. Đội ngũ Reviewer có thể tiến hành kiểm tra logic."
