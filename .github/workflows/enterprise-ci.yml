@@ -19,6 +19,10 @@ jobs:
       with:
         node-version: '18.x'
 
+     # [BỔ SUNG BƯỚC NÀY ĐỂ CÀI ĐẶT ESLINT TRÊN MÁY CHỦ ẢO]
+    - name: 📦 Cài đặt thư viện (Dependencies)
+      run: npm install
+
     - name: 🔍 Kiểm tra Tiêu chuẩn Cú pháp (Linter)
       run: npm run lint
       
